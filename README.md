@@ -1,5 +1,7 @@
 # Aztec Connect Bridges
 
+⚠️ This repo was created for Aztec Connect, which is now deprecated. You can read more about the deprecation [here](https://docs.aztec.network/aztec_connect_sunset).
+
 [![CircleCI](https://circleci.com/gh/AztecProtocol/aztec-connect-bridges/tree/master.svg?style=shield)](https://circleci.com/gh/AztecProtocol/aztec-connect-bridges/tree/master)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](./CODE_OF_CONDUCT.md)
 
