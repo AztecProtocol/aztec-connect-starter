@@ -20,7 +20,7 @@ When the bridge proceed to deposit the input token to the output vault.
 
 If the bridge receives `ETH` as the input token it will first wrap into `WETH` and then follow the same flow as any other ERC20.
 
-We check that `auxData` is correct (`0`), `inputValue` is greater that 0 and that the token is an ERC20. After that, the bridge calls the `deposit` function to send the tokens to the vault and receive yvTokens as a receipt for it.
+We check that `auxData` is correct (`0`), `inputValue` is greater than 0 and that the token is an ERC20. After that, the bridge calls the `deposit` function to send the tokens to the vault and receive yvTokens as a receipt for it.
 
 The gas cost for ERC20 deposit is ~230k.
 The gas cost for ETH deposit is ~118k.

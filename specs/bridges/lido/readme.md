@@ -22,7 +22,7 @@ There are two flows of Lido Bridge, namely deposits and withdraws.
 
 ### Deposit
 
-If the bridge receives `eth` as the input token it will deposit it into the Lido contract along a referall address. In return, the bridge will receive `stEth` which it will wrap to `wstEth` before return the tuple `(wstEthAmount, 0, false)` and the rollup pulls the `wstEth` tokens.
+If the bridge receives `eth` as the input token it will deposit it into the Lido contract along a referral address. In return, the bridge will receive `stEth` which it will wrap to `wstEth` before return the tuple `(wstEthAmount, 0, false)` and the rollup pulls the `wstEth` tokens.
 
 The gas cost E2E for a deposit is ~175K, this is including the transfers to/from the Rollup Processor.
 
@@ -60,4 +60,4 @@ As we are using the wrapped variation of `stEth` it will not directly be impacte
 
 ## What about withdrawing after the merge and hardfork?
 
-When Lido can support withdraws directly, a new bridge can be made that performs this interaction. Because the bridge don't hold the tokens, the user is free to take his shielded L2 `wstEth` and go to any other bridge to use them to his liking.
+When Lido can support withdraws directly, a new bridge can be made that performs this interaction. Because the bridge doesn't hold the tokens, the user is free to take his shielded L2 `wstEth` and go to any other bridge to use them to his liking.

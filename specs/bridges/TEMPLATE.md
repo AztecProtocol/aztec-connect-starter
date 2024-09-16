@@ -22,7 +22,7 @@ You can view an example spec [here](#add-link).
      - All relevant bridge address ids (may fill in after deployment)
      - use of auxData
      - gas usage
-     - cases that that would make the interaction revert (low liquidity etc)
+     - cases that would make the interaction revert (low liquidity etc)
    - Please include any diagrams that would be helpful to understand asset flow.
 
 4. Please list any edge cases that may restrict the usefulness of the bridge or that the bridge prevents explicit.
