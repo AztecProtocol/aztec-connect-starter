@@ -282,7 +282,7 @@ You can also find more information on the [Aztec docs site](https://docs.aztec.n
 
 ### What is Aztec?
 
-Aztec is a privacy focussed L2, that enables cheap private interactions with Layer 1 smart contracts and liquidity, via a process called DeFi Aggregation.
+Aztec is a privacy focused L2, that enables cheap private interactions with Layer 1 smart contracts and liquidity, via a process called DeFi Aggregation.
 We use advanced zero-knowledge technology "zk-zk rollups" to add privacy and significant gas savings any Layer 1 protocol via Aztec Connect bridges.
 
 #### What is a bridge?
