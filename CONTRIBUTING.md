@@ -6,7 +6,7 @@ We have a grants program where you can get funding to write a custom bridge. You
 
 In the near future, adding a custom bridge to the Aztec network will be permissionless. Currently bridges must be added to the Aztec Rollup processor contract manually by the team. This is a temporary measure as we bootstrap the network.
 
-This repo has been built with Foundry. Given the inter-connected nature of Aztec Connect Bridges with existing mainnet protocols, we decided Foundry / forge offered the best support for testing. This repo should make debugging, mainnet-forking, impersonation and gas profiling simple. It makes sense to test Solidity contracts with Solidty not with the added complication of Ethers / Typescript.
+This repo has been built with Foundry. Given the inter-connected nature of Aztec Connect Bridges with existing mainnet protocols, we decided Foundry / forge offered the best support for testing. This repo should make debugging, mainnet-forking, impersonation and gas profiling simple. It makes sense to test Solidity contracts with Solidity not with the added complication of Ethers / Typescript.
 
 For more information, refer to the [README](./README.md).
 
