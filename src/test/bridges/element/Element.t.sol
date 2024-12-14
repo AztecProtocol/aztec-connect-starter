@@ -67,7 +67,7 @@ contract ElementTest is Test {
         1643382476,
         1643382514,
         1644601070,
-        //1644604852, commented out becuase these tranches are not used
+        //1644604852, commented out because these tranches are not used
         1650025565,
         1651240496,
         1651247155,
