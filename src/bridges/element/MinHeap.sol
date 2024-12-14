@@ -69,7 +69,7 @@ library MinHeap {
 
     /**
      * @dev used to remove a value from the heap
-     * will remove the first found occurence of the value from the heap, optimised for removal of the minimum value
+     * will remove the first found occurrence of the value from the heap, optimised for removal of the minimum value
      * @param self reference to the underlying data structure of the heap
      * @param value the value to be removed
      */
