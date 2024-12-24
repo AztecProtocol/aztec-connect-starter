@@ -15,7 +15,7 @@ There are 3 flows supported by the bridge: borrowing, repaying and redeeming.
 
 ### Borrowing
 Borrowing flow is simple.
-User provides ETH on the input and gets LUSD on the ouput (+ accounting token used to rerpresent user's collateral and
+User provides ETH on the input and gets LUSD on the output (+ accounting token used to rerpresent user's collateral and
 debt).
 Since the collateral ratio is fixed by the bridge, user gets the amount of LUSD out based only on the amount
 of collateral provided and the collateral ratio.
